@@ -120,6 +120,12 @@ export default {
               component: './dashboard/analysis',
             },
             {
+              name: 'projects',
+              icon: 'smile',
+              path: '/list/search/projects',
+              component: './list/search/projects',
+            },
+            {
               component: './404',
             },
           ],
