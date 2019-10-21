@@ -7,7 +7,6 @@ import { getTimeDistance } from './utils/utils';
 import styles from './style.less';
 
 const IntroduceRow = React.lazy(() => import('./components/IntroduceRow'));
-const SalesCard = React.lazy(() => import('./components/SalesCard'));
 const TopSearch = React.lazy(() => import('./components/TopSearch'));
 const ProportionSales = React.lazy(() => import('./components/ProportionSales'));
 const OfflineData = React.lazy(() => import('./components/OfflineData'));
@@ -137,16 +136,7 @@ class Analysis extends Component {
           <Suspense fallback={<PageLoading />}>
             <IntroduceRow loading={loading} visitData={visitData} />
           </Suspense>
-          <Suspense fallback={null}>
-            <SalesCard
-              rangePickerValue={rangePickerValue}
-              salesData={salesData}
-              isActive={this.isActive}
-              handleRangePickerChange={this.handleRangePickerChange}
-              loading={loading}
-              selectDate={this.selectDate}
-            />
-          </Suspense>
+
           <Row
             gutter={24}
             type="flex"
