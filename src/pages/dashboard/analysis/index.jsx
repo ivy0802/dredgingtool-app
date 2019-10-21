@@ -142,18 +142,7 @@ class Analysis extends Component {
             style={{
               marginTop: 24,
             }}
-          >
-            <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-              <Suspense fallback={null}>
-                <TopSearch
-                  loading={loading}
-                  visitData2={visitData2}
-                  searchData={searchData}
-                  dropdownGroup={dropdownGroup}
-                />
-              </Suspense>
-            </Col>
-          </Row>
+          ></Row>
           <Suspense fallback={null}>
             <OfflineData
               activeKey={activeKey}
