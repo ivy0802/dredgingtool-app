@@ -143,15 +143,6 @@ class Analysis extends Component {
               marginTop: 24,
             }}
           ></Row>
-          <Suspense fallback={null}>
-            <OfflineData
-              activeKey={activeKey}
-              loading={loading}
-              offlineData={offlineData}
-              offlineChartData={offlineChartData}
-              handleTabChange={this.handleTabChange}
-            />
-          </Suspense>
         </React.Fragment>
       </GridContent>
     );
