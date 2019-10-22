@@ -15,7 +15,7 @@ const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
 ];
 const covers = [
-  'sedimentspill.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/uMfMFlvUuceEyPpotzlq.png',
   'https://gw.alipayobjects.com/zos/rmsportal/iZBVOIhGJiAnhplqjvZW.png',
   'https://gw.alipayobjects.com/zos/rmsportal/iXjVmWVHbCJAyqvDxdtx.png',
   'https://gw.alipayobjects.com/zos/rmsportal/gLaIAoVWTtLbBWZNYEMg.png',
@@ -48,8 +48,8 @@ function fakeList(count) {
     list.push({
       id: `fake-list-${i}`,
       owner: user[i % 10],
-      title: titles[i % 8],
-      avatar: avatars[i % 8],
+      title: titles[i % 6],
+      avatar: avatars[i % 6],
       cover: parseInt(`${i / 4}`, 10) % 2 === 0 ? covers[i % 4] : covers[3 - (i % 4)],
       status: ['active', 'exception', 'normal'][i % 3],
       percent: Math.ceil(Math.random() * 50) + 50,
