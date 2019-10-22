@@ -17,7 +17,7 @@ class Projects extends Component {
     dispatch({
       type: 'listAndsearchAndprojects/fetch',
       payload: {
-        count: 8,
+        count: 6,
       },
     });
   }
@@ -35,7 +35,7 @@ class Projects extends Component {
         loading={loading}
         grid={{
           gutter: 24,
-          xl: 4,
+          xl: 3,
           lg: 3,
           md: 3,
           sm: 2,

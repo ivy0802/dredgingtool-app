@@ -2,11 +2,9 @@ const titles = [
   'Sediment Spill',
   'Sediment Disposal',
   'Hopper Loading',
-  'XXXXX',
   'Silt Curtain Simulator',
   'Sand Capping',
   'Agitation Dredging',
-  'XXXXX',
 ];
 const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png', // Alipay
@@ -15,8 +13,6 @@ const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png', // Ant Design Pro
   'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
   'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
-  'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
-  'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
 ];
 const covers = [
   'https://gw.alipayobjects.com/zos/rmsportal/uMfMFlvUuceEyPpotzlq.png',
@@ -28,7 +24,6 @@ const desc = [
   'Overflow & spill dispersion',
   'Deposition & sediment stripping',
   'Sedimentation, overflow & sand engineering',
-  '城镇中有那么多的酒馆，她却偏偏走进了我的酒馆',
   'Design and evaluate spill mitigation',
   'Design & Evaluation',
   'Propeller wash impact',
