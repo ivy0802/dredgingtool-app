@@ -15,10 +15,10 @@ const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
 ];
 const covers = [
-  'https://gw.alipayobjects.com/zos/rmsportal/uMfMFlvUuceEyPpotzlq.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/iZBVOIhGJiAnhplqjvZW.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/iXjVmWVHbCJAyqvDxdtx.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/gLaIAoVWTtLbBWZNYEMg.png',
+  'https://www.dredgemag.com/wp-content/uploads/2018/11/Kitimat-dredger-and-SediMeter-station-in-front.jpeg',
+  'https://www.dredgemag.com/wp-content/uploads/2018/11/Kitimat-dredger-and-SediMeter-station-in-front.jpeg',
+  'https://www.dredgemag.com/wp-content/uploads/2018/11/Kitimat-dredger-and-SediMeter-station-in-front.jpeg',
+  'https://www.dredgemag.com/wp-content/uploads/2018/11/Kitimat-dredger-and-SediMeter-station-in-front.jpeg',
 ];
 const desc = [
   'Overflow & spill dispersion',
